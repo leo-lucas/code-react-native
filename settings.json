@@ -1,0 +1,124 @@
+ 
+{
+    "files.autoSave": "off",
+    "prettier.semi": false,
+    "liveServer.settings.host": "localhost",
+    "liveServer.settings.port": 3000,
+    "workbench.iconTheme": "material-icon-theme",
+    // Define o tema dos ícones na sidebar
+    "workbench.startupEditor": "newUntitledFile",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "atomKeymap.promptV3Features": true,
+    "window.zoomLevel": 1,
+    // configurações do terminal
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "terminal.integrated.fontFamily": "Fira Code",
+    // Conficurações do editor
+    "editor.lineHeight": 24,
+    "editor.fontSize": 18,
+    "editor.formatOnSave": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.suggestSelection": "first",
+    "editor.fontLigatures": true,
+    "editor.highlightActiveIndentGuide": true,
+    "editor.fontFamily": "Fira Code",
+    "editor.formatOnPaste": true,
+    // prettier ts
+    "[javascript]": {
+      "editor.formatOnSave": true,
+    },
+    "[javascriptreact]": {
+      "editor.formatOnSave": true,
+    },
+    "[typescript]": {
+      "editor.formatOnSave": true,
+    },
+    "[typescriptreact]": {
+      "editor.formatOnSave": true,
+    },
+    // eslint
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+      {
+        "language": "javascript",
+        "autoFix": true
+      },
+      {
+        "language": "javascriptreact",
+        "autoFix": true
+      },
+      {
+        "language": "typescript",
+        "autoFix": true
+      },
+      {
+        "language": "typescriptreact",
+        "autoFix": true
+      }
+    ],
+    // Ignora busca de arquivos
+    "search.exclude": {
+      "**/.git": true,
+      "**/node_modules": true,
+      "**/bower_components": true,
+      "**/tmp": true
+    },
+    "files.exclude": {
+      "**/.classpath": true,
+      "**/.project": true,
+      "**/.settings": true,
+      "**/.factorypath": true
+    },
+    "files.watcherExclude": {
+      "**/.git/objects/**": true,
+      "**/.git/subtree-cache/**": true,
+      "**/node_modules/*/**": true
+    },
+    // "javascript.implicitProjectConfig.checkJs": true,
+    // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
+    "editor.rulers": [
+      80,
+      120
+    ],
+    // Aplica um sinal visual na esquerda da linha selecionada
+    "editor.renderLineHighlight": "gutter",
+    // Aumenta a fonte do terminal
+    "terminal.integrated.fontSize": 14,
+    "editor.tabSize": 2,
+    // "extensions.ignoreRecommendations": false,
+    "emmet.syntaxProfiles": {
+      "javascript": "jsx",
+      "nunjucks": "html"
+    },
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact",
+      "nunjucks": "html"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "gitlens.codeLens.recentChange.enabled": false,
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.codeLens.enabled": false,
+    "breadcrumbs.enabled": true,
+    "git.enableSmartCommit": true,
+    "editor.parameterHints.enabled": false,
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    // "terminal.integrated.shell.osx": "/bin/zsh",
+    "explorer.confirmDragAndDrop": false,
+    "liveshare.featureSet": "stable",
+    "explorer.confirmDelete": false,
+    "typescript.tsserver.log": "verbose",
+    "javascript.implicitProjectConfig.checkJs": true,
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
+    // /bin/bash
+    "jest.enableInlineErrorMessages": true,
+    "sonarlint.testFilePattern": "{**/spec/**,**/test/**,**/*test*,**/*Test*}",
+    "gitlab.instanceUrl": "https://git.4all.com/",
+    "EasyMock.serverPort": 5001,
+    "codemetrics.nodeconfiguration.JsxElement": 0,
+    "git-assistant.checkConfigVariables": "disabled",
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "Dracula"
+  }
